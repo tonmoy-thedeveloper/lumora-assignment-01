@@ -19,4 +19,49 @@ li {
 a,
 a:hover {
   text-decoration: none;
+  display: block;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 80%;
+}
+.btn {
+  padding: 12px 36px;
+  border-radius: 10px;
+  background-color: #4e47ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  border: none;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  display: block;
+}
+.btn:hover{
+  background-color: #0d0896;
+}
+/* ==================== Header section styles start from here ==================== */
+header {
+  background: url(../images/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ==================== Navbar section CSS start from here ==================== */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+nav .logo {
+  color: #4e47ff;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 150%;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
 }
