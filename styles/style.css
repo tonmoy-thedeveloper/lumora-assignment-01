@@ -5,8 +5,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
   font-family: "Inter", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 body {
   overflow-x: hidden;
@@ -28,7 +28,6 @@ a:hover {
   width: 80%;
 }
 .btn {
-  font-family: "Raleway", sans-serif;
   padding: 12px 36px;
   border-radius: 10px;
   background-color: #4e47ff;
@@ -78,7 +77,6 @@ nav .logo {
   color: #252432;
   font-size: 65px;
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
 }
 /* ==================== Hero Area CSS end here ==================== */
 
@@ -92,16 +90,44 @@ nav .logo {
   color: #252432;
   font-size: 42px;
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
 }
 .action-con p {
   color: rgba(37, 36, 50, 0.5);
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
-  font-family: "Raleway", sans-serif;
   margin: 23px 0;
 }
-.action-img img{
+.action-img img {
   border-radius: 48px;
+}
+
+#user {
+  padding: 50px 80px;
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  text-align: center;
+}
+#user h3 {
+  color: #252432;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+}
+.stats-container .stat h4 {
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+.star p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
