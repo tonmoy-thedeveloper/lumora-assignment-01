@@ -80,6 +80,9 @@ nav .logo {
 }
 /* ==================== Hero Area CSS end here ==================== */
 
+/* ==================== Header section styles end here ==================== */
+
+/* ==================== Action section styles start from here ==================== */
 #action {
   display: flex;
   justify-content: space-between;
@@ -101,7 +104,9 @@ nav .logo {
 .action-img img {
   border-radius: 48px;
 }
+/* ==================== Action section styles end here ==================== */
 
+/* ==================== Productive user section styles start from here ==================== */
 #user {
   padding: 50px 80px;
   border-radius: 24px;
@@ -131,7 +136,9 @@ nav .logo {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+/* ==================== Productive user section styles end here ==================== */
 
+/* ==================== Testimonial section styles start from here ==================== */
 #testimonial {
   margin: 120px auto;
 }
@@ -145,7 +152,6 @@ nav .logo {
 }
 .card {
   padding: 24px;
-  /* background: rgba(255, 255, 255, 0.5); */
   background: #fff;
   border: 1px solid #f2eded;
   border-radius: 14px;
@@ -199,7 +205,39 @@ nav .logo {
   font-family: "Inter", sans-serif;
   color: #b3b3b3;
 }
+/* ==================== Testimonial section styles end here ==================== */
 
+/* ==================== Call to action section styles start from here ==================== */
+#cta {
+  text-align: center;
+  padding: 70px 150px;
+  border-radius: 14px;
+  background: #fff;
+}
+#cta h3 {
+  color: #111;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+}
+#cta p {
+  font-size: 17px;
+  line-height: 140%;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+}
+#cta button {
+  margin: 20px auto;
+  text-transform: capitalize;
+}
+#cta img {
+  border-radius: 48px;
+}
+/* ==================== Call to action section styles end here ==================== */
+
+/* ==================== Newsletter section styles start from here ==================== */
 #newsletter {
   padding: 70px 0;
   display: flex;
@@ -261,7 +299,9 @@ form textarea {
   font-family: "Inter", sans-serif;
   margin-bottom: 18px;
 }
+/* ==================== Newsletter section styles end here ==================== */
 
+/* ==================== Footer section styles start from here ==================== */
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   background: #fff;
@@ -296,3 +336,4 @@ footer p {
   line-height: 150%;
   text-transform: capitalize;
 }
+/* ==================== Footer section styles end here ==================== */
