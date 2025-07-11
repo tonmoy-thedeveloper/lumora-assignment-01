@@ -39,7 +39,7 @@ a:hover {
   transition: all linear 0.3s;
   display: block;
 }
-.btn:hover{
+.btn:hover {
   background-color: #0d0896;
 }
 /* ==================== Header section styles start from here ==================== */
@@ -64,4 +64,18 @@ nav .logo {
   line-height: 150%;
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
+}
+/* ==================== Navbar section CSS end here ==================== */
+
+/* ==================== Hero Area CSS start from here ==================== */
+#hero-area {
+  text-align: center;
+  padding: 150px 0;
+}
+#hero-area h1 {
+  color: #252432;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+
 }
